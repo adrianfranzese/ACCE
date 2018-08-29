@@ -1,0 +1,156 @@
+@import url("https://use.typekit.net/ntt7vsd.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /* font: inherit; */
+  vertical-align: baseline;
+  color: inherit;
+}
+
+html {
+  font-family: "synthese", sans-serif;
+  font-weight: 300;
+  font-feature-settings:"onum" 1, "pnum" 1, "kern" 1, "liga" 1, "ss08" 1;
+  font-size: 18px;
+  line-height: 1.6;
+
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+nav {
+  /* background: black; */
+  margin: 1em 0;
+  /* color: white; */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+header {
+  margin: 30vh 0;
+}
+
+section {
+  margin: 100px  0;
+}
+
+p {
+  /* font-feature-settings: "liga", "onum"; */
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 4.768rem;
+  line-height: 1;
+  letter-spacing: -1.5px;
+  margin-bottom: 0.25em;
+  /* border-bottom: calc(1em / 12) solid black;
+  text-shadow: white 0px 0px 5px; */
+  /* -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: hsla(0,0%,0%,0); */
+}
+
+h2 {
+  font-size: 3.052rem;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  margin: 0.5em 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+p.intro {
+  /* font-weight: ; */
+  font-size: 1.25rem;
+}
+
+cite {
+  font-size: 0.8rem;
+  letter-spacing: 0.3px;
+}
+
+a {
+}
+
+:hover::before {
+  content: attr(title);
+  position: absolute;
+  left: 2rem;
+  font-size: 12px;
+  /* margin-top: 2em; */
+  padding: 0.5em;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: normal;
+  letter-spacing: normal;
+  font-style: normal;
+  color: red;
+  /* background: aliceblue; */
+}
+
+/* h1:hover::before {
+  content: "Heading 1";
+  background: aliceblue;
+  margin-top: 4em;
+}
+
+h2:hover::before {
+  content: "Heading 2";
+  background: pink;
+  margin-top: 2.5em;
+}
+
+h3:hover::before {
+  content: "Heading 3";
+  background: lavender;
+  margin-top: 1em;
+}
+
+h4:hover::before {
+  content: "Heading 4";
+  background: linen;
+  /* margin-top: 1em; */
+/* } */
+
+/* p:hover::before {
+  content: "Body paragraph";
+  background: white ;
+  margin-top: 1em;
+} */
+
+/* p.intro:hover::before {
+  content: "Intro paragraph";
+  background: Gainsboro ;
+  margin-top: 1em;
+} */
+
+/* nav:hover::before {
+  content: "Navigation";
+  background: ivory;
+  content: attr();
+} */
